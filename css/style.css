@@ -1,0 +1,45 @@
+body {
+  height: 100vh;
+}
+h1 {
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+}
+.nav {
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 100px;
+  list-style: none;
+}
+.main {
+  background-color: rgb(223, 212, 198);
+  width: 500px;
+  height: auto;
+  margin-left: 33%;
+}
+.table {
+  width: 400px;
+  padding: 10px;
+  margin-left: 10px;
+}
+input,
+textarea,
+button,
+select {
+  width: 400px;
+  margin-left: 10px;
+  padding: 2px;
+}
+label {
+  margin-left: 10px;
+  padding: 2px;
+}
+button {
+  margin-top: 10px;
+  background-color: black;
+  color: aliceblue;
+}
